@@ -216,3 +216,27 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Backend
+backend/venv/
+backend/.env
+backend/chrome_profile/
+backend/data/
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/.env
+
+# Servicio
+servicio/venv/
+servicio/.env
+servicio/__pycache__/
+servicio/data/
+
+# General
+**/__pycache__/
+**/*.pyc
+*.log
+.DS_Store
+Thumbs.db
