@@ -30,4 +30,5 @@ VEO3_URL = os.getenv("VEO3_URL", "https://labs.google/fx/es/tools/flow")
 HEADLESS = os.getenv("HEADLESS", "false").lower() == "true"
 
 # Timeouts (ms)
-GENERATION_TIMEOUT_MS = int(os.getenv("GENERATION_TIMEOUT_MS", "180000"))  # 3 min
+GENERATION_TIMEOUT_MS = int(os.getenv("GENERATION_TIMEOUT_MS", "180000"))  # 3 min — imágenes
+VIDEO_GENERATION_TIMEOUT_MS = int(os.getenv("VIDEO_GENERATION_TIMEOUT_MS", "600000"))  # 10 min — videos
